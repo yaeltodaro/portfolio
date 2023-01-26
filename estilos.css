@@ -129,11 +129,15 @@ a.menu-link:hover {
 }
 
 .projects .item{
-  background-image:url('img/Landing_2.png');
+  background-image:url('img/Landing_1.png');
   background-size:cover;
   background-position:center center;
   min-height:400px;
   min-width:400px;
+}
+
+.projects .item:nth-child(2){
+  background-image:url('img/Landing_2.png');
 }
 
 .item-info{
